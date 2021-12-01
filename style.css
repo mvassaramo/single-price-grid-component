@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+.max-width-wrapper {
+  padding: 240px;
+}
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 48px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 24px;
+}
+
+header h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+header p {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+main h3 {
+  color: white;
+}
+
+main p {
+  color: hsl(204, 43%, 93%);
+  line-height: 1.5;
+}
+
+.section-left {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  padding: 48px;
+  border-bottom-left-radius: 8px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 16px 8px;
+  border-radius: 8px;
+}
+
+.section-right {
+  background-color: hsl(180, 100%, 38%);
+  width: 50%;
+  padding: 48px;
+  border-bottom-right-radius: 8px;
+}
